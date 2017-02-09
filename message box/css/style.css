@@ -796,6 +796,17 @@ ul.cart-list > li.total > .btn:focus{
      padding: 0px 25px;
 }
 
+.picture{
+    max-width: 130px;
+    max-height: 130px;
+    
+    
+    border-radius: 50%;
+/*    overflow: hidden;*/
+    box-shadow: 0 10px 30px -12px rgba(0, 0, 0, 0.42), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+}
+
+
 @media all and (max-width: 720px) {
     #msgContainer{
         width: 100%;
@@ -805,4 +816,8 @@ ul.cart-list > li.total > .btn:focus{
     #msgContainer{
         width: 100%;
     }
+}
+
+.mainContent {
+
 }
